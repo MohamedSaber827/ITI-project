@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Companion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Gym Companion</h1>
+        <p>Your workout & calorie partner</p>
+    </header>
+
+    <nav>
+        <button onclick="showSection('chest')">Chest</button>
+        <button onclick="showSection('back')">Back</button>
+        <button onclick="showSection('shoulder')">Shoulder</button>
+        <button onclick="showSection('arms')">Arms</button>
+        <button onclick="showSection('legs')">Legs</button>
+    </nav>
+
+    <!-- Exercise Sections -->
+    <div id="chest" class="section">
+        <h2>Chest Workouts</h2>
+        <img src="chest press.jpeg" alt="Dumbell Press">
+        <figcaption> Dumbell Press </figcaption>
+        <img src="incline.jpeg" alt="incline Dumbell Press">
+        <figcaption>incline Dumbell Press</figcaption>
+        <img src="pec dec.jpeg" alt="pec Deck">
+        <figcaption>pec deck</figcaption>
+    </div>
+
+    <div id="back" class="section">
+        <h2>Back Workouts</h2>
+        <img src="lat.jpeg" alt="lat pulldown">
+        <figcaption>lat pulldown</figcaption>
+        <img src="lat row.jpeg" alt="lat row">
+        <figcaption>lat row</figcaption>
+        <img src="ttt.jpeg" alt="t-bar">
+        <figcaption>t-bar</figcaption>
+    </div>
+
+    <div id="shoulder" class="section">
+        <h2>Shoulder Workouts</h2>
+        <img src="shoulder p.jpeg" alt="Shoulder press">
+        <figcaption>shoulder press</figcaption>
+        <img src="lr.jpeg" alt="lateral raises">
+        <figcaption>lateral raises</figcaption>
+        <img src="cable lr.jpeg" alt="cable lateral raises">
+        <figcaption>cable lateral raises</figcaption>
+    </div>
+
+    <div id="arms" class="section">
+        <h2>Arm Workouts</h2>
+        <img src="bii.jpeg" alt="Hummer curl">
+        <figcaption>Hummer curl</figcaption>
+        <img src="bbb.jpeg" alt="Dumbell curl">
+        <figcaption> Dumbell curl</figcaption>
+        <img src="push.jpeg" alt="tricep pushdown">
+        <figcaption>tricep pushdown</figcaption>
+        <img src="over.jpeg" alt="overhead">
+        <figcaption>overhead</figcaption>
+    </div>
+
+    <div id="legs" class="section">
+        <h2>Leg Workouts</h2>
+        <img src="squats.jpeg" alt="squats">
+        <figcaption>squats</figcaption>
+        <img src="curl l.jpeg" alt="Leg curl">
+        <figcaption> leg curl</figcaption>
+        <img src="exte.jpeg" alt="leg extension">
+        <figcaption>leg extension</figcaption>
+        <img src="hp.jpeg" alt="hip abbduction">
+        <figcaption>hip abbduction</figcaption>
+        <img src="add.jpeg" alt="hip adduction">
+        <figcaption>hip adduction</figcaption>
+    </div><br></br>
+    <!--food-->
+    <nav>
+        <button onclick="showSection('Food')">Food</button>
+    </nav>
+    <div id="Food" class="section">
+        <h2>Meals</h2>
+        <img src="1.jpeg" alt="chicken">
+        <figcaption>1. Grilled Chicken with Brown Rice & Broccoli
+            • Ingredients: 150g grilled chicken breast, 1 cup cooked brown rice, 1 cup steamed broccoli
+            • Nutrition: ~450 kcal | 40g protein | 50g carbs | 6g fa</figcaption>
+        <img src="2.jpeg" alt="2. Oats with Whey & Peanut Butter">
+        <figcaption>2. Oats with Whey & Peanut Butter
+            Ingredients: 1 cup oats, 1 scoop whey protein, 1 tbsp peanut butter, ½ banana
+            Nutrition: ~420 kcal | 28g protein | 48g carbs | 12g fat</figcaption>
+        <img src="3.jpeg" alt="3. Salmon with Sweet Potato & Asparagus">
+        <figcaption>3. Salmon with Sweet Potato & Asparagus
+            • Ingredients: 150g baked salmon, 200g baked sweet potato, 1 cup asparagus
+            • Nutrition: ~480 kcal | 36g protein | 45g carbs | 16g fat</figcaption>
+        <img src="4.jpeg" alt="4. Egg Omelette with Spinach & Whole Wheat Toast">
+        <figcaption>4. Egg Omelette with Spinach & Whole Wheat Toast
+            • Ingredients: 3 whole eggs + 2 egg whites, 1 cup spinach, 2 slices whole wheat toast
+            • Nutrition: ~390 kcal | 30g protein | 30g carbs | 16g fat</figcaption>
+        <img src="5.jpeg" alt="5. Tuna Wrap">
+        <figcaption>5. Tuna Wrap
+            • Ingredients: 1 whole wheat tortilla, 1 can tuna (in water), 1 tbsp light mayo, lettuce, cucumber
+            • Nutrition: ~350 kcal | 32g protein | 32g carbs | 8g fat</figcaption>
+        <img src="6.jpeg" alt="6. Greek Yogurt with Berries & Almonds">
+        <figcaption>6. Greek Yogurt with Berries & Almonds
+            • Ingredients: 200g Greek yogurt (low-fat), ½ cup mixed berries, 10 almonds
+            • Nutrition: ~280 kcal | 20g protein | 25g carbs | 10g fat</figcaption>
+        <img src="7.jpeg" alt="7. Lean Beef with Quinoa & Green Bean">
+        <figcaption>7. Lean Beef with Quinoa & Green Beans
+            • Ingredients: 150g lean ground beef (90/10), 1 cup cooked quinoa, 1 cup green beans
+            • Nutrition: ~500 kcal | 38g protein | 45g carbs | 15g fat</figcaption>
+        <img src="8.jpeg" alt="protein smoothie">
+        <figcaption>8. Protein Smoothie
+            • Ingredients: 1 scoop whey protein, 1 cup milk (or almond milk), 1 tbsp peanut butter, ½ banana, ice
+            • Nutrition: ~350 kcal | 28g protein | 28g carbs | 12g fat</figcaption>
+        <img src="9.jpeg" alt="9. Chicken Stir Fry">
+        <figcaption>9. Chicken Stir Fry
+            • Ingredients: 150g chicken breast, 1 cup mixed veggies (peppers, carrots, onions), 1 tbsp olive oil, 1 cup
+            white rice
+            • Nutrition: ~480 kcal | 38g protein | 55g carbs | 12g fat</figcaption>
+        <img src="10.jpeg" alt="10. Shrimp with Couscous & Zucchini">
+        <figcaption>10. Shrimp with Couscous & Zucchini
+            • Ingredients: 150g shrimp, 1 cup cooked couscous, 1 cup zucchini (grilled)
+            • Nutrition: ~400 kcal | 35g protein |40g carbs|8g</figcaption>
+    </div><br></br>
+
+
+    <nav>
+        <P> For contact <a href="contact.html" target="_blank">contact</a></P>
+    </nav>
+    <footer>
+        <p>© 2025 Gym Companion. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
