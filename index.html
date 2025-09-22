@@ -10,15 +10,6 @@
 
 <body>
 
-    <div class="site-bg"></div>
-    <div class="overlay"></div>
-
-    <div class="start-screen" id="startScreen">
-        <div class="start-card">
-            <h2> GYM COMPANION</h2>
-            <button class="start-btn" id="startBtn">DISCOVER MORE</button>
-        </div>
-    </div>
 
     <header>
         <h1>Gym Companion</h1>
@@ -149,13 +140,6 @@
 
     <script src="script.js"></script>
 </body>
-<script>
-
-    document.getElementById("startBtn").onclick = () => {
-        document.getElementById("startScreen").style.opacity = 0;
-        setTimeout(() => { document.getElementById("startScreen").style.display = "none"; document.getElementById("mainContent").style.display = "grid"; }, 500);
-    };
-
 </script>
 
 </html>
