@@ -44,31 +44,7 @@ nav button:hover {
     background: #d32828;
 }
 
-.start-screen {
-    position: fixed;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url("pexels-victorfreitas-703016.jpg") center/cover no-repeat;
-    z-index: 10;
-    transition: opacity .5s;
-}
-
-.start-btn {
-    padding: 12px 20px;
-    border: none;
-    border-radius: 30px;
-    background: var(--main);
-    color: white;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 14px;
-}
-
-.start-btn:hover {
-    background: #ff3333;
-}
+.s
 
 .section {
     display: none;
@@ -95,32 +71,5 @@ nav button:hover {
     margin: auto;
     padding: auto;
 
-    #calorie-calculator {
-        margin: 40px auto;
-        padding: 20px;
-        max-width: 500px;
-        background: white;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    input,
-    select {
-        padding: 8px;
-        margin: 5px;
-        width: 80%;
-    }
-
-    button.calculate {
-        background: #28a745;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        margin-top: 10px;
-        cursor: pointer;
-    }
-
-    button.calculate:hover {
-        background: #218838;
-    }
 }
+
